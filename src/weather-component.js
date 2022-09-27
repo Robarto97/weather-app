@@ -9,7 +9,7 @@ const Weather = () => {
   const searchLocation = (e) => {
     if (location && e.key === "Enter") {
       fetch(
-        `https://api.openweathermap.org/data/2.5/weather?q=${location}&units=metric&appid=d68fcd7dc27863380dcb787251a5f949`
+        `https://api.openweathermap.org/data/2.5/weather?q=${location}&units=metric&appid=${ApiKey}`
       )
         .then((response) => {
           return response.json();
