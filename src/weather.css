@@ -1,0 +1,75 @@
+.App {
+  text-align: center;
+}
+body{
+  background-color: #AFBE8F;
+}
+
+.weather{
+  width: 25%;
+  margin: 2rem auto;
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 0 1.5rem 1.5rem;
+  border-radius: 10px;
+  box-shadow: 4px -2px 15px 4px rgba(0,0,0,0.60);
+}
+
+.top, .bottom{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top div{
+  text-align: left;
+}
+
+.city{
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin: 0;
+  letter-spacing: 1px;
+}
+.weather-desc{
+  font-weight: 400;
+  font-size: 1rem;
+  margin: 0;
+}
+
+.weather-icon{
+  width: 30%;
+}
+
+.temp{
+  font-weight: bold;
+  font-size: 4.5rem;
+  margin: 1rem 0;
+}
+
+.details{
+  text-align: left;
+  width: 100%;
+  padding-left: 3rem;
+}
+
+.details-row{
+  display: flex;
+  justify-content: space-between;
+}
+
+.details-label{
+  text-align: left;
+  font-size: 0.9rem; 
+}
+.details-value{
+  font-size: 0.9rem;
+  text-align: right;
+  font-weight: 600;
+}
+.details-row.main{
+  border-bottom: 1px solid #fff;
+  margin-bottom: 0.25rem;
+}
